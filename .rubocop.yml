@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - named_validations.gemspec
+  DisplayCopNames: true
+  TargetRubyVersion: 2.3
+
+Metrics/ClassLength:
+  Exclude:
+    - test/*_test.rb
+
+Style/SingleLineBlockParams:
+  Methods: []
